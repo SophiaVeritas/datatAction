@@ -10,9 +10,13 @@ Serializing objects to byte streams and back can be error prone, and difficult t
 
 Examples:
 	Example 1 – A basic data type to file and read back from file.
+ 
 	Example 2 – Mixed basic data types to file and read back from file.
+ 
 	Example 3 – A class object with mixed primary data inside& write/read from file.
+ 
 	Example3b – A class object with mixed primary data undo example.
+ 
 
 	Example10 – {Todo} GTK3 Example (Open, Save & Undo)
 
