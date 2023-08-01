@@ -8,17 +8,16 @@ Summary:
 Serializing objects to byte streams and back can be error prone, and difficult to maintain. Without a helper class it can be difficult to keep the read, and write procedures matched over time. However, operating the helper class can be as much work in programming as just writing the code. Thus, the goal of this project is to make a framework that is quick and simple to implement for the programmer, and will make read-sequence and write-sequence into a single sequence so that any change will keep the read & write consistent. As a bonus side note, since the framework can also be used as an undo helper. The object can be transferred to a uint8[] ( “byte[]” ) held in memory, and then used to restore an objects primary data-types to the stored state.
 
 
-Examples:
-	Example 1 – A basic data type to file and read back from file.
+Example 1 – A basic data type to file and read back from file.
+
+Example 2 – Mixed basic data types to file and read back from file.
  
-	Example 2 – Mixed basic data types to file and read back from file.
+Example 3 – A class object with mixed primary data inside& write/read from file.
  
-	Example 3 – A class object with mixed primary data inside& write/read from file.
- 
-	Example3b – A class object with mixed primary data undo example.
+Example3b – A class object with mixed primary data undo example.
  
 
-	Example10 – {Todo} GTK3 Example (Open, Save & Undo)
+Example10 – { ***  Todo  ***} GTK3 Example (Open, Save & Undo)
 
 
 Example1 Usage: (Primary Data – Write to file)
